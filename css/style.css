@@ -1,3 +1,85 @@
+:root{
+    --main: #FFFFFF;
+    --title: #292F36;
+    --text: #4D5053;
+    --rare: #CDA274;
+    --background: #F4F0EC;
+    --border-item: #E7E7E7;
+    --border: #E5E5E5;
+}
+
 body{
     font-family: Jost;
+}
+.container{
+    width: 1230px;
+    outline: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header{
+    margin-bottom: 18px;
+}
+.header-box{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+width: 538.016px;
+height: 62px;
+padding: 12px 0px 19px 20.016px;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 40px;
+flex-shrink: 0;
+margin-left: 484.98px;
+}
+.nav-item{
+    color: var(--title);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.4px;
+}
+.nav-item:nth-child(1){
+    color: var(--rare);
+}
+.main-hero{
+    background-image: url(../img/backgroundhero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1440px 831px ;
+}
+.hero-box{
+    justify-content: center;
+    padding-top: 188px;
+}
+.hero-title{
+    width: 595px;
+    color:var(--title);
+font-family: "DM Serif Display";
+font-size: 80px;
+font-weight: 400;
+line-height: 1.2;
+letter-spacing: 0.22px;
+}
+.hero-text{
+    margin-top: 19px;
+    color:var(--text);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+.hero-button{
+    margin-bottom: 260px;
+    margin-top: 57px;
+    color:var(--main);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.72px;
+padding: 22px 67px 22px 34px;
 }
