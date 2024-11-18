@@ -158,6 +158,13 @@ border: none;
     margin-top: 100px; 
     margin-bottom: 100px;
 }
+.main-recommendation{
+    height: 634.609px;
+    background-image: url(../img/kitchen.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 592px 635px;
+}
 .recommendation-title{
     color:var(--title);
 font-family: "DM Serif Display";
