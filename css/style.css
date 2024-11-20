@@ -204,9 +204,6 @@ line-height: 1.5
 letter-spacing: 0.22px;
 margin: 10.2px 264.69px 0px 0px;
 }
-.rec-text{
-    
-}
 .recommendation-button{
     color:var(--main);
 font-size: 18px;
@@ -225,11 +222,29 @@ flex-shrink: 0;
 }
 .main-review{
     margin-top: 139.39px;
+    margin-bottom: 140.61px;
 }
 .review-box{
     border-radius: 70px;
 background:var(--background);
 height: 675px;
+}
+.reviews-box{
+    display: flex;
+padding-right: 49.125px;
+margin: 49.61px 30px 0px 35px;
+}
+.rev-box{
+    display: flex;
+width: 162.875px;
+padding-left: 20px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+.reviews-img{
+    width: 77px;
+height: 77px;
 }
 .review-title{
     color:var(--title);
@@ -250,10 +265,7 @@ letter-spacing: 0.22px;
 display: flex;
 gap: 18px;
 }
-.review-item{
-    width: 354px;
-height: 287px;
-flex-shrink: 0;
+.reviews-item{
 border-radius: 30px;
 background:var(--main);
 }
@@ -280,4 +292,136 @@ letter-spacing: 0.22px;
     letter-spacing: 0.22px;
     margin: 32px 75px 45px 35px;
 }
-
+.main-brands{
+    margin-bottom: 100px;
+}
+.brands-list{
+    display: flex;
+}
+.brands-home{
+    margin: 30.39px 125px 29.61px 48px ;
+}
+.brands-interior{
+    margin: 0.39px 110px 0.39px 0px ;
+}
+.brands-brand{
+    margin: 30.39px 89px 29.61px 0px;
+}
+.brands-nature{
+    margin: 29.39px 112px 28.61px 0px ;
+}
+.brands-classic{
+    margin: 27.39px 55px 27.61px ;
+}
+.main-projects{
+    margin-bottom: 80px;
+}
+.project-box{
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+.project-title{
+    margin-bottom: 20px;
+    color:var(--title);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 1.32765957447;
+    letter-spacing: 0.22px;
+}
+.proj-title{
+    font-size: 24px;
+    line-height: 1.5625;
+}
+.project-text{
+    color:var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+}
+.projects-img{
+    width: 100%;
+}
+.projects-list{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+gap: 20px;
+}
+.projects-box{
+    display: flex;
+height: 95px;
+padding-top: 25px;
+justify-content: center;
+align-items: flex-start;
+gap: 221.5px;
+flex-shrink: 0;
+}
+.proj-box{
+    width: 298.5px;
+height: 70px;
+}
+.proj-boxfour{
+    display: flex;
+width: 324.953px;
+height: 70px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+.projects-boxfour{
+    display: flex;
+height: 95px;
+padding-top: 24.984px;
+justify-content: center;
+align-items: flex-start;
+gap: 195.047px;
+flex-shrink: 0;
+}
+.projects-item{
+    flex-basis: calc((100% - 20px) / 2);
+    display: flex;
+width: 590px;
+height: 756.203px;
+padding-top: 0.391px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: -0.187px;
+flex-shrink: 0;
+}
+.projects-title{
+    color:var(--title);
+font-family: "DM Serif Display";
+font-size: 24px;
+font-weight: 400;
+line-height: 1.5625;
+letter-spacing: 0.22px;
+}
+.projects-text{
+    color:var(--text);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+.projects-button{
+    width: 70px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 100px;
+background:var(--background);
+border: none;
+}
+.{
+    
+}
+.{
+    
+}
+.{
+    
+}
