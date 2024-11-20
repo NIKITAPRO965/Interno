@@ -50,7 +50,6 @@ letter-spacing: 0.4px;
     background-image: url(../img/backgroundhero.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 1440px 831px ;
 }
 .hero-box{
     height: 831px;
@@ -159,9 +158,15 @@ border: none;
     margin-top: 100px; 
     margin-bottom: 100px;
 }
- .recommendation{
-    height: 634.609px;
- }
+.recommendation-box{
+    display: flex;
+    gap: 16px;
+}
+.recommendation-div{
+    width: 592px;
+height: 581px;
+flex-shrink: 0;
+}
 .recommendation-title{
     color:var(--title);
 font-family: "DM Serif Display";
@@ -169,6 +174,7 @@ font-size: 50px;
 font-weight: 400;
 line-height: 1.3;
 letter-spacing: 0.22px;
+margin: 13.2px 142px 42px 0px;
 }
 .recommendation-text{
     color:var(--text);
@@ -176,6 +182,30 @@ font-size: 22px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.22px;
+margin-right: 60px;
+}
+.recommendation-case{
+    display: flex;
+    margin-top: 29.8px;
+    width: 532px;
+    margin-bottom: 10.2px;
+}
+.case-img{
+border-radius: 100px;
+background-color:var(--background);
+padding: 29px 29px 30px 30px;
+margin: 10.2px 20px 39.8px 0px;
+}
+.recommendation-world{
+    color:var(--text);
+font-size: 24px;
+font-weight: 400;
+line-height: 1.5
+letter-spacing: 0.22px;
+margin: 10.2px 264.69px 0px 0px;
+}
+.rec-text{
+    
 }
 .recommendation-button{
     color:var(--main);
@@ -234,21 +264,6 @@ font-size: 25px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.22px;
-}
-.reviews-usa::before{
-    content: "";
-    display: block;
-background-image: url(../img/lisausa.png);
-}
-.reviews-australia::before{
-    content: "";
-    display: block;
-    background-image: url(../img/davidaustralia.png)
-}
-.reviews-france::before{
-    content: "";
-    display: block;
-    background-image: url(../img/lisafrance.png)
 }
 .reviews-subtitle{
     color:var(--text);
