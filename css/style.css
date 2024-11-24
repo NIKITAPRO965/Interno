@@ -418,9 +418,10 @@ border: none;
 }
 .main-statistics{
     background:var(--background);
+    padding-top: 139.98px;
+    padding-bottom: 140.02px;
 }
 .statistics-box{
-    height: 475px;
     flex-shrink: 0; 
 }
 .statistics-list{
@@ -431,7 +432,6 @@ border: none;
     width: 288px;
 height: 195px;
 flex-shrink: 0;
-margin: 139.98px 0px 140.02px 0px;
 border-right: var(--rare) solid 1px;
 }
 .statistics-item:nth-child(4){
@@ -505,7 +505,7 @@ letter-spacing: 0.22px;
 border: 1px solid var(--border-item);
 }
 .blogs-text{
-    color:var(--text);
+    color:var(--main);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
@@ -573,6 +573,10 @@ border-radius: 100px;
 background:var(--background);
 border: none;
 }
+.main-consultation{
+    margin-top: 100.2px;
+    margin-bottom: 79.8px;
+}
 .consultation-box{
     border-radius: 70px;
 background:var(--title);
@@ -612,7 +616,77 @@ background-color: var(--rare);
 width: 241px;
 height: 71px;
 flex-shrink: 0;
+}
 
+
+
+.footer{
+    display: flex;
+width: 1440px;
+padding-top: 50px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: -1px;
+}
+.gids-box{
+    display: flex;
+    height: 454px;
+    padding: 0px 0.047px 80px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px; 
+}
+.gid-box{
+    width: 393.359px;
+height: 374px;
+}
+.logo-img{
+    display: inline-block;
+    width: 177px;
+height: 50px;
+flex-shrink: 0;
+margin-bottom: 15px;
+}
+.gid-text{
+    margin-bottom: 9.8px;
+    color:var(--text);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5px
+letter-spacing: 0.22px;
+}
+.networks-list{
+    display: inline-flex;
+padding: 19.203px 152.359px 14.797px 0px;
+align-items: center;
+gap: 40px;
+}
+
+.pages-item{
+    display: flex;
+width: 210.719px;
+padding: 0px 60px 0px 0px;
+flex-direction: column;
+align-items: flex-start;
+}
+.pages-title{
+    margin-bottom: 21.797px;
+    color:var(--title);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 1.5px
+letter-spacing: 0.22px;
+}
+.pages-text{
+    margin-bottom: 30px;
+    color:var(--text);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
 }
 .{
     
