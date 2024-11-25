@@ -19,21 +19,19 @@ body{
     padding-right: 15px;
 }
 .header{
-    margin-bottom: 18px;
+    padding-bottom: 18px;
 }
 .header-box{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-list{
     display: flex;
-width: 538.016px;
 height: 62px;
-padding: 12px 0px 19px 20.016px;
 justify-content: flex-end;
-align-items: flex-start;
+align-items: center;
 gap: 40px;
-flex-shrink: 0;
-margin-left: 484.98px;
 }
 .nav-item{
     color: var(--title);
@@ -46,14 +44,11 @@ letter-spacing: 0.4px;
     color: var(--rare);
 }
 .main-hero{
+    padding-top: 195px;
+    padding-bottom: 250px ;
     background-image: url(../img/backgroundhero.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-.hero-box{
-    height: 831px;
-    justify-content: center;
-    padding-top: 188px;
 }
 .hero-title{
     width: 595px;
@@ -73,7 +68,6 @@ line-height: 1.5;
 letter-spacing: 0.22px;
 }
 .hero-button{
-    margin-bottom: 260px;
     margin-top: 57px;
     color:var(--main);
 font-size: 18px;
@@ -86,16 +80,10 @@ border-radius: 18px;
 }
 .information-list{
     display: flex;
-width: 1200px;
-height: 395px;
 justify-content: center;
-align-items: flex-start;
-flex-shrink: 0;
 }
 .information-item{
     width: 400px;
-    height: 395px;
-    flex-shrink: 0;
 }
 .information-title{
     color:var(--title);
@@ -216,11 +204,6 @@ letter-spacing: 0.72px;
 border: 2px solid var(--title);
 background:var(--title);
 }
-.recommendation-img{
-    width: 592px;
-height: 635px;
-flex-shrink: 0;
-}
 .main-review{
     margin-top: 139.39px;
     margin-bottom: 140.61px;
@@ -237,11 +220,9 @@ margin: 49.61px 30px 0px 35px;
 }
 .rev-box{
     display: flex;
-width: 162.875px;
 padding-left: 20px;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
 }
 .reviews-img{
     width: 77px;
@@ -354,33 +335,24 @@ gap: 20px;
 }
 .projects-box{
     display: flex;
-height: 95px;
 padding-top: 25px;
 justify-content: center;
-align-items: flex-start;
 gap: 221.5px;
-flex-shrink: 0;
 }
 .proj-box{
     width: 298.5px;
-height: 70px;
 }
 .proj-boxfour{
     display: flex;
 width: 324.953px;
-height: 70px;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
 }
 .projects-boxfour{
     display: flex;
-height: 95px;
 padding-top: 24.984px;
 justify-content: center;
-align-items: flex-start;
 gap: 195.047px;
-flex-shrink: 0;
 }
 .projects-item{
     flex-basis: calc((100% - 20px) / 2);
@@ -391,8 +363,6 @@ padding-top: 0.391px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-gap: -0.187px;
-flex-shrink: 0;
 }
 .projects-title{
     color:var(--title);
@@ -466,13 +436,8 @@ justify-content: flex-end;
 align-items: center;
 gap: 70px;
 }
-.blog-box{
-    width: 1200px;
-height: 148px;
-}
 .blogs-box{
     width: 1220px;
-    height: 1110.781px;
 }
 .blog-title{
     color:var(--title);
@@ -616,7 +581,6 @@ border: none;
 background-color: var(--rare);
 width: 241px;
 height: 71px;
-flex-shrink: 0;
 }
 
 
@@ -633,7 +597,6 @@ align-items: center;
     height: 454px;
     padding: 0px 0.047px 80px 0px;
     justify-content: center;
-    align-items: flex-start;
     gap: 16px; 
 }
 .gid-box{
@@ -685,7 +648,6 @@ height: 285px;
 padding-right: 37.078px;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
 gap: 30px;
 }
 .pages-text{
@@ -695,7 +657,6 @@ height: 285px;
 padding-right: 37.078px;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
 gap: 30px;
 }
 
@@ -704,7 +665,6 @@ gap: 30px;
 width: 210.719px;
 padding: 0px 60px 30px 0px;
 flex-direction: column;
-align-items: flex-start;
 gap: 21.797px;
 }
 .explore-title{
@@ -722,7 +682,6 @@ height: 285px;
 padding-right: 26.797px;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
 gap: 30px;
 }
 .explore-text{
@@ -737,7 +696,6 @@ letter-spacing: 0.22px;
 width: 337.156px;
 padding-bottom: 123px;
 flex-direction: column;
-align-items: flex-start;
 gap: 21.797px;
 }
 .contact-title{
@@ -754,7 +712,6 @@ width: 337.156px;
 padding: 0.203px 15.953px 0.797px 0.203px;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
 gap: 29px;
 }
 .contact-link{
