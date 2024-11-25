@@ -19,6 +19,7 @@ body{
     padding-right: 15px;
 }
 .header{
+    padding-top: 26px;
     padding-bottom: 18px;
 }
 .header-box{
@@ -78,6 +79,10 @@ padding: 22px 67px 22px 34px;
 background-color: var(--title);
 border-radius: 18px;
 }
+.main-information{
+    padding-top: 100px; 
+    padding-bottom: 100px;
+}
 .information-list{
     display: flex;
 justify-content: center;
@@ -113,39 +118,41 @@ line-height: 1.5;
 letter-spacing: 0.36px;
 border: none;
 }
+.inf-one{
+    padding: 75px 41px 70px 42px;
+}
 .title-one{
-    margin: 75px 113px 17px 113px;
+    margin-bottom: 17px;
 }
 .text-one{
-    margin: 0px 41px 48px 42px;
+    margin-bottom: 48px;
 }
 .button-one{
     padding: 20px 128px 0px 98px;
-    margin: 0px 40px 70px 40px;
+}
+.inf-two{
+    padding: 75px 40px 103px 40px;
 }
 .title-two{
-    margin: 75px 144px 17px 144px;
+    margin: 0px 0px 17px 0px;
 }
 .text-two{
-    margin: 0px 51px 15px 52px;
+    margin: 0px 0px 15px 0px;
 }
 .button-two{
     padding: 20px 128px 0px 98px;
-    margin: 0px 40px 103px 40px;
+}
+.inf-three{
+    padding: 75px 40px 70px 40px;
 }
 .title-three{
-    margin: 75px 151px 17px 151px;
+    margin: 0px 0px 17px 0px;
 }
 .text-three{
-    margin: 0px 52px 15px 52px;
+    margin: 0px 0px 15px 0px;
 }
 .button-three{
     padding: 20px 128px 0px 98px;
-    margin: 0px 40px 70px 40px;
-}
-.main-information{
-    margin-top: 100px; 
-    margin-bottom: 100px;
 }
 .recommendation-box{
     display: flex;
@@ -205,8 +212,8 @@ border: 2px solid var(--title);
 background:var(--title);
 }
 .main-review{
-    margin-top: 139.39px;
-    margin-bottom: 140.61px;
+    padding-top: 139.39px;
+    padding-bottom: 140.61px;
 }
 .review-box{
     border-radius: 70px;
@@ -275,7 +282,7 @@ letter-spacing: 0.22px;
     margin: 32px 75px 45px 35px;
 }
 .main-brands{
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 .brands-list{
     display: flex;
@@ -296,7 +303,7 @@ letter-spacing: 0.22px;
     margin: 27.39px 55px 27.61px ;
 }
 .main-projects{
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 .project-box{
     margin-top: 15px;
@@ -426,7 +433,7 @@ line-height: 1.5;
 letter-spacing: 0.22px;
 }
 .main-blogs{
-    margin-top: 130px;
+    padding-top: 130px;
 }
 .blogs-div{
     display: flex;
@@ -540,8 +547,8 @@ background:var(--background);
 border: none;
 }
 .main-consultation{
-    margin-top: 100.2px;
-    margin-bottom: 79.8px;
+    padding-top: 100.2px;
+    padding-bottom: 79.8px;
 }
 .consultation-box{
     border-radius: 70px;
