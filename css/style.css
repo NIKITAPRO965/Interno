@@ -296,21 +296,8 @@ letter-spacing: 0.22px;
 }
 .brands-list{
     display: flex;
-}
-.brands-home{
-    margin: 30.39px 125px 29.61px 48px ;
-}
-.brands-interior{
-    margin: 0.39px 110px 0.39px 0px ;
-}
-.brands-brand{
-    margin: 30.39px 89px 29.61px 0px;
-}
-.brands-nature{
-    margin: 29.39px 112px 28.61px 0px ;
-}
-.brands-classic{
-    margin: 27.39px 55px 27.61px ;
+    align-items: center;
+    justify-content: space-between;
 }
 .main-projects{
     padding-bottom: 80px;
@@ -409,12 +396,10 @@ border: none;
     padding-top: 139.98px;
     padding-bottom: 140.02px;
 }
-.statistics-box{
-    flex-shrink: 0; 
-}
 .statistics-list{
     display: flex;
     gap: 18px;
+    justify-content: center;
 }
 .statistics-item{
     width: 288px;
