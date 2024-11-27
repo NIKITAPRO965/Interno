@@ -216,6 +216,8 @@ background:var(--title);
     padding-bottom: 140.61px;
 }
 .review-box{
+    padding-left: 51px;
+    padding-right: 51px;
     padding-bottom: 120.39px;
     padding-top: 103px;
     border-radius: 70px;
@@ -250,6 +252,9 @@ letter-spacing: 0.22px;
 .reviews-list{
 display: flex;
 gap: 18px;
+}
+.reviews-list{
+    justify-content: center;
 }
 .reviews-item{
     padding: 49.61px 30px 45px 35px ;
