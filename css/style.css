@@ -183,8 +183,15 @@ margin-right: 60px;
 .recommendation-case{
     display: flex;
     margin-top: 29.8px;
-    width: 532px;
-    margin-bottom: 10.2px;
+    margin-bottom: 11px;gap: 20px;
+    padding: 10.2px 264.69px 39px 0px
+}
+.rec-text{
+    margin-right: 0px;
+}
+.rec-box{
+    align-content: center;
+
 }
 .case-img{
 border-radius: 100px;
@@ -198,7 +205,6 @@ font-size: 24px;
 font-weight: 400;
 line-height: 1.5
 letter-spacing: 0.22px;
-margin: 10.2px 264.69px 0px 0px;
 }
 .recommendation-button{
     color:var(--main);
@@ -465,21 +471,18 @@ letter-spacing: 0.22px;
     flex-wrap: wrap;
 }
 .blogs-item{
-    width: 387px;
-    height: 515px;
-    flex-shrink: 0; 
+    padding: 21px 21px 40.59px 21px;
     flex-basis: calc((100% - 40px) / 3);
     border-radius: 62px;
 border: 1px solid var(--border-item);
 }
 .blogs-text{
     color:var(--main);
-font-size: 16px;
+font-size: 15px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.22px;
 padding: 232px 206px 40px 34px;
-margin: 21px 21px 15px 21px;
 }
 .blogs-title{
     color:var(--title);
@@ -488,22 +491,18 @@ font-size: 25px;
 font-weight: 400;
 line-height: 1.4;
 letter-spacing: 0.5px;
-margin-left: 21px;
-margin-right: 32px;
+margin-top: 15px;
 margin-bottom: 10.41px;
 }
 .blog-div{
     display: inline-flex;
-padding: 9.594px 0px 0.406px 0px;
 justify-content: center;
 align-items: center;
 gap: 149px;
-margin: 0px 21.34px 40.59px 21px;
 }
 .blogs-kitdes{
     background-image: url(../img/kitchendesign.png) ;
     background-repeat: no-repeat;
-    background-size: 345px 296px;
 }
 .blogs-livrm{
     background-image:url(../img/livingroom.png) ;
@@ -512,6 +511,7 @@ margin: 0px 21.34px 40.59px 21px;
 .blogs-minint{
     background-image:url(../img/minimalistinterior.png) ;
     background-repeat: no-repeat;
+    padding: 232px 192px 40px 34px;
 }
 .blogs-deskit{
     background-image:url(../img/designkitchen.png) ;
@@ -524,6 +524,7 @@ margin: 0px 21.34px 40.59px 21px;
 .blogs-intmin{
     background-image:url(../img/interiorminimalist.png) ;
     background-repeat: no-repeat;
+    padding: 232px 192px 40px 34px;
 }
 
 .blogs-world{
@@ -548,8 +549,9 @@ border: none;
 .consultation-box{
     border-radius: 70px;
 background:var(--title);
-height: 414px;
 padding-top: 100px;
+padding-bottom: 95px;
+text-align: center;
 }
 .consultation-title{
     color:var(--main);
@@ -577,12 +579,9 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.22px;
 padding: 21px 67px 23px 34px;
-margin: 0px 485px 95px;
 border-radius: 18px;
 border: none;
 background-color: var(--rare);
-width: 241px;
-height: 71px;
 }
 
 
