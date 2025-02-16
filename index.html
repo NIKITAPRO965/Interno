@@ -17,24 +17,28 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
       <div class="container header-box">
-      <a class="header-link" href="./index.html"
+      <a class="header-link animate__animated animate__bounceInLeft" href="./index.html"
         ><img class="header-img" src="./img/interno.png" alt="Interno"
       /></a>
       <nav class="header-nav">
         <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link active" href="./index.html"></a>Home
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#"></a>About Us</li>
-          <li class="nav-item"><a class="nav-link" href="#"></a>Services</li>
-          <li class="nav-item"><a class="nav-link" href="#"></a>Pages</li>
-          <li class="nav-item"><a class="nav-link" href="#"></a>Contact Us</li>
+          <li class="nav-item animate__animated animate__bounceInDown"><a class="nav-link active" href="./index.html"></a>Home</li>
+          <li class="nav-item animate__animated animate__bounceInDown"><a class="nav-link" href="#"></a>About Us</li>
+          <li class="nav-item animate__animated animate__bounceInDown"><a class="nav-link" href="#"></a>Services</li>
+          <li class="nav-item animate__animated animate__bounceInDown"><a class="nav-link" href="#"></a>Pages</li>
+          <li class="nav-item animate__animated animate__bounceInDown"><a class="nav-link" href="#"></a>Contact Us</li>
         </ul>
       </nav>
     </div>
@@ -42,18 +46,18 @@
     <main class="main">
       <section class="main-hero">
         <div class="container">
-        <h1 class="hero-title">Let's Create Your Dream Interior</h1>
-        <p class="hero-text">
+        <h1 class="hero-title animate__animated animate__pulse">Let's Create Your Dream Interior</h1>
+        <p class="hero-text animate__animated animate__pulse">
           The world needs innovators and problem solvers who turn
         </p>
-        <p class="hero-text">challenges into greater opportunities.</p>
-        <button type="button" class="hero-button">Get Started</button>
+        <p class="hero-text animate__animated animate__pulse">challenges into greater opportunities.</p>
+        <button type="button" class="hero-button animate__animated animate__bounce">Get Started</button>
       </div>
       </section>
-      <section class="main-information">
+      <section class="main-information" data-aos="fade-up">
         <div class="container">
         <ul class="information-list">
-          <li class="information-item inf-one">
+          <li class="information-item inf-one" data-aos="flip-left">
             <h2 class="information-title title-one">Interior Design</h2>
             <p class="information-text text-one">
               Enhancing the interior to achieve a healthier environment for the
@@ -61,7 +65,7 @@
             </p>
             <button type="button" class="information-button button-one">View More</button>
           </li>
-          <li class="information-item inf-two">
+          <li class="information-item inf-two" data-aos="flip-up">
             <h2 class="information-title title-two">Furniture</h2>
             <p class="information-text text-two">
               Movable articles that are used to make a room or building suitable
@@ -69,7 +73,7 @@
             </p>
             <button type="button" class="information-button button-two">View More</button>
           </li>
-          <li class="information-item inf-three">
+          <li class="information-item inf-three"  data-aos="flip-right">
             <h2 class="information-title title-three">Flooring</h2>
             <p class="information-text text-three">
               Thin object any finished material applied over a floor structure
@@ -83,37 +87,37 @@
       <section class="main-recommendation">
         <div class="container recommendation-box">
           <div class="recommendation-div">
-        <h2 class="recommendation-title">
+        <h2 class="recommendation-title" data-aos="fade-down-right">
           We Tackle The Most Challenging Designs
         </h2>
-        <p class="recommendation-text">
+        <p class="recommendation-text" data-aos="fade-right">
           The world needs innovators and problem solvers who turn challenges
           into greater opportunities. We have
         </p>
-        <p class="recommendation-text">
+        <p class="recommendation-text" data-aos="fade-right">
           an insatiable curiosity about transformative trends challenging the
           status.
         </p>
-        <div class="recommendation-case">
+        <div class="recommendation-case" data-aos="fade-right">
           <img class="case-img" src="./img/phone.png" alt="phone">
           <div class="rec-box">
         <p class="recommendation-world">012345678</p>
         <p class="recommendation-text rec-text">Call Us Anytime</p>
       </div>
       </div>
-        <button type="button" class="recommendation-button">
+        <button type="button" class="recommendation-button" data-aos="fade-up-right">
           Get Free Estimate
         </button>
       </div>
-        <img class="recommendation-img" src="./img/kitchen.png" alt="kitchen">
+        <img class="recommendation-img" src="./img/kitchen.png" alt="kitchen" data-aos="fade-left">
       </div>
       </section>
       <section class="main-review">
         <div class="container review-box">
-        <h2 class="review-title review-subject">What the People Thinks</h2>
-        <h2 class="review-title review-heading">About Interno</h2>
+        <h2 class="review-title review-subject" data-aos="fade-down">What the People Thinks</h2>
+        <h2 class="review-title review-heading" data-aos="fade-down">About Interno</h2>
         <ul class="reviews-list">
-          <li class="reviews-item">
+          <li class="reviews-item" data-aos="zoom-in">
             <div class="reviews-box">
             <img class="reviews-img" src="./img/lisausa.png" alt="Lisa">
             <div class="rev-box">
@@ -126,7 +130,7 @@
               & education.
             </p>
           </li>
-          <li class="reviews-item">
+          <li class="reviews-item" data-aos="zoom-in">
             <div class="reviews-box">
             <img class="reviews-img" src="./img/davidaustralia.png" alt="David">
             <div class="rev-box">
@@ -139,7 +143,7 @@
               project’s.
             </p>
           </li>
-          <li class="reviews-item">
+          <li class="reviews-item" data-aos="zoom-in">
             <div class="reviews-box">
             <img class="reviews-img" src="./img/lisafrance.png" alt="Lisa">
             <div class="rev-box">
@@ -155,7 +159,7 @@
         </ul>
       </div>
       </section>
-      <section class="main-brands">
+      <section class="main-brands" data-aos="fade-up">
         <div class="container">
         <ul class="brands-list">
           <li class="brands-item">
@@ -211,7 +215,7 @@
         </p>
       </div>
         <ul class="projects-list">
-          <li class="projects-item">
+          <li class="projects-item" data-aos="zoom-in">
             <img
               src="./img/winerydrycreek.png"
               alt="Winery Dry Creek"
@@ -225,7 +229,7 @@
             <button type="button" class="projects-button">&#8250;</button>
           </div>
           </li>
-          <li class="projects-item">
+          <li class="projects-item" data-aos="zoom-in">
             <img
               src="./img/workplace.png"
               alt="Workplace"
@@ -239,7 +243,7 @@
             <button type="button" class="projects-button">&#8250;</button>
           </div>
           </li>
-          <li class="projects-item">
+          <li class="projects-item" data-aos="zoom-in">
             <img
               src="./img/bedroominterior.png"
               alt="Bedroom"
@@ -253,7 +257,7 @@
             <button type="button" class="projects-button">&#8250;</button>
           </div>
           </li>
-          <li class="projects-item">
+          <li class="projects-item" data-aos="zoom-in">
             <img
               src="./img/lightambiencesepia.png"
               alt="Light Ambience Sepia"
@@ -422,5 +426,9 @@
       </div>
       </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>
