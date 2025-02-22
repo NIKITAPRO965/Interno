@@ -1,0 +1,144 @@
+
+.footer {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .gids-box {
+    display: flex;
+    padding: 0px 0.047px 80px 0px;
+    justify-content: center;
+    gap: 16px;
+  }
+  .logo-img {
+    display: inline-block;
+    width: 177px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  .gid-text {
+    width: 326px;
+    margin-bottom: 9.8px;
+    color: var(--text);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  .networks-list {
+    display: inline-flex;
+    margin-right: 75.64px;
+    padding: 19.203px 152.359px 14.797px 0px;
+    align-items: center;
+    gap: 40px;
+  }
+  .pages-list {
+    margin-right: 119px;
+  }
+  .pages-item {
+    display: flex;
+    flex-direction: column;
+    gap: 21.797px;
+  }
+  .pages-title {
+    color: var(--title);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  .pages-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .pages-link {
+    color: var(--text);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  .explore-list {
+    margin-right: 103px;
+  }
+  .explore-item {
+    display: flex;
+    flex-direction: column;
+    gap: 21.797px;
+  }
+  .explore-title {
+    color: var(--title);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37.5px; /* 150% */
+    letter-spacing: 0.22px;
+  }
+  .explore-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .explore-link {
+    width: 124px;
+    color: var(--text);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  .contact-list {
+    margin-left: auto;
+  }
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 21.797px;
+  }
+  .contact-title {
+    color: var(--title);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  .contact-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 29px;
+  }
+  .contact-link {
+    color: var(--text);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  .footer-copyright {
+    border-top: var(--border) solid 1px;
+  }
+  .copyright-title {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  .copyright-span {
+    color: var(--rare);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  

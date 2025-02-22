@@ -1,0 +1,37 @@
+
+.main-statistics {
+    background: var(--background);
+    padding-top: 139.98px;
+    padding-bottom: 140.02px;
+  }
+  .statistics-list {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+  }
+  .statistics-item {
+    width: 288px;
+    height: 195px;
+    flex-shrink: 0;
+    border-right: var(--rare) solid 1px;
+  }
+  .statistics-item:nth-child(4) {
+    border: none;
+  }
+  .statistics-title {
+    color: var(--rare);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1.7px;
+  }
+  .statistics-text {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }

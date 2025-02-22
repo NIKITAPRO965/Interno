@@ -1,3 +1,33 @@
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 :root {
   --main: #ffffff;
   --title: #292f36;
@@ -11,22 +41,18 @@
 body {
   font-family: Jost;
 }
-.container {
-  width: 1230px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 .header {
   padding-top: 26px;
   padding-bottom: 18px;
 }
+
 .header-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .nav-list {
   display: flex;
   height: 62px;
@@ -34,6 +60,7 @@ body {
   align-items: center;
   gap: 40px;
 }
+
 .nav-item {
   color: var(--title);
   font-size: 20px;
@@ -41,9 +68,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.4px;
 }
+
 .nav-item:nth-child(1) {
   color: var(--rare);
 }
+
 .main-hero {
   padding-top: 195px;
   padding-bottom: 250px;
@@ -51,6 +80,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .hero-title {
   width: 595px;
   color: var(--title);
@@ -60,6 +90,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.22px;
 }
+
 .hero-text {
   margin-top: 19px;
   color: var(--text);
@@ -68,6 +99,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .hero-button {
   margin-top: 57px;
   color: var(--main);
@@ -79,17 +111,21 @@ body {
   background-color: var(--title);
   border-radius: 18px;
 }
+
 .main-information {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .information-list {
   display: flex;
   justify-content: center;
 }
+
 .information-item {
   width: 400px;
 }
+
 .information-title {
   color: var(--title);
   text-align: center;
@@ -99,6 +135,7 @@ body {
   line-height: 1.56;
   letter-spacing: 0.22px;
 }
+
 .information-text {
   color: var(--text);
   text-align: center;
@@ -107,6 +144,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .information-button {
   background-color: var(--main);
   color: var(--text);
@@ -118,51 +156,66 @@ body {
   letter-spacing: 0.36px;
   border: none;
 }
+
 .inf-one {
   padding: 75px 41px 70px 42px;
 }
+
 .title-one {
   margin-bottom: 17px;
 }
+
 .text-one {
   margin-bottom: 48px;
 }
+
 .button-one {
   padding: 20px 128px 0px 98px;
 }
+
 .inf-two {
   padding: 75px 40px 103px 40px;
 }
+
 .title-two {
   margin: 0px 0px 17px 0px;
 }
+
 .text-two {
   margin: 0px 0px 15px 0px;
 }
+
 .button-two {
   padding: 20px 128px 0px 98px;
 }
+
 .inf-three {
   padding: 75px 40px 70px 40px;
 }
+
 .title-three {
   margin: 0px 0px 17px 0px;
 }
+
 .text-three {
   margin: 0px 0px 15px 0px;
 }
+
 .button-three {
   padding: 20px 128px 0px 98px;
 }
+
 .recommendation-box {
   display: flex;
   gap: 16px;
 }
+
 .recommendation-div {
   width: 592px;
   height: 581px;
   flex-shrink: 0;
 }
+
 .recommendation-title {
   color: var(--title);
   font-family: "DM Serif Display";
@@ -172,6 +225,7 @@ body {
   letter-spacing: 0.22px;
   margin: 13.2px 142px 42px 0px;
 }
+
 .recommendation-text {
   color: var(--text);
   font-size: 22px;
@@ -180,6 +234,7 @@ body {
   letter-spacing: 0.22px;
   margin-right: 60px;
 }
+
 .recommendation-case {
   display: flex;
   margin-top: 29.8px;
@@ -187,17 +242,21 @@ body {
   gap: 20px;
   padding: 10.2px 264.69px 39px 0px;
 }
+
 .rec-text {
   margin-right: 0px;
 }
+
 .rec-box {
   align-content: center;
 }
+
 .case-img {
   border-radius: 100px;
   background-color: var(--background);
   padding: 29px 29px 30px 30px;
 }
+
 .recommendation-world {
   color: var(--text);
   font-size: 24px;
@@ -205,6 +264,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .recommendation-button {
   color: var(--main);
   font-size: 18px;
@@ -216,10 +276,12 @@ body {
   border: 2px solid var(--title);
   background: var(--title);
 }
+
 .main-review {
   padding-top: 139.39px;
   padding-bottom: 140.61px;
 }
+
 .review-box {
   padding-left: 51px;
   padding-right: 51px;
@@ -228,20 +290,24 @@ body {
   border-radius: 70px;
   background: var(--background);
 }
+
 .reviews-box {
   display: flex;
   padding-right: 49.125px;
 }
+
 .rev-box {
   display: flex;
   margin-left: 20px;
   flex-direction: column;
   justify-content: center;
 }
+
 .reviews-img {
   width: 77px;
   height: 77px;
 }
+
 .review-title {
   color: var(--title);
   text-align: center;
@@ -251,21 +317,26 @@ body {
   line-height: 1.3;
   letter-spacing: 0.22px;
 }
+
 .review-heading {
   margin-bottom: 47px;
 }
+
 .reviews-list {
   display: flex;
   gap: 18px;
 }
+
 .reviews-list {
   justify-content: center;
 }
+
 .reviews-item {
   padding: 49.61px 30px 45px 35px;
   border-radius: 30px;
   background: var(--main);
 }
+
 .reviews-title {
   color: var(--title);
   font-family: "DM Serif Display";
@@ -274,6 +345,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .reviews-subtitle {
   color: var(--text);
   font-size: 18px;
@@ -281,6 +353,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .reviews-text {
   color: var(--text);
   font-size: 20px;
@@ -290,27 +363,34 @@ body {
   margin-top: 25.39px;
   width: 244px;
 }
+
 .reviews-world {
   width: 256px;
 }
+
 .reviews-version {
   width: 274px;
 }
+
 .main-brands {
   padding-bottom: 100px;
 }
+
 .brands-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .main-projects {
   padding-bottom: 80px;
 }
+
 .project-box {
   padding-top: 15px;
   margin-bottom: 70px;
 }
+
 .project-title {
   margin-bottom: 20px;
   color: var(--title);
@@ -318,13 +398,15 @@ body {
   font-family: "DM Serif Display";
   font-size: 47px;
   font-weight: 400;
-  line-height: 1.32765957447;
+  line-height: 1.3276595745;
   letter-spacing: 0.22px;
 }
+
 .proj-title {
   font-size: 24px;
   line-height: 1.5625;
 }
+
 .project-text {
   color: var(--text);
   text-align: center;
@@ -333,36 +415,43 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .projects-img {
   width: 100%;
 }
+
 .projects-list {
   display: inline-block;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .projects-box {
   display: flex;
   padding-top: 25px;
   justify-content: center;
   gap: 221.5px;
 }
+
 .proj-box {
   width: 298.5px;
 }
+
 .proj-boxfour {
   display: flex;
   width: 324.953px;
   flex-direction: column;
   justify-content: center;
 }
+
 .projects-boxfour {
   display: flex;
   padding-top: 24.984px;
   justify-content: center;
   gap: 195.047px;
 }
+
 .projects-item {
   flex-basis: calc((100% - 20px) / 2);
   display: flex;
@@ -373,6 +462,7 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
+
 .projects-title {
   color: var(--title);
   font-family: "DM Serif Display";
@@ -381,6 +471,7 @@ body {
   line-height: 1.5625;
   letter-spacing: 0.22px;
 }
+
 .projects-text {
   color: var(--text);
   font-size: 22px;
@@ -388,6 +479,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .projects-button {
   width: 70px;
   height: 70px;
@@ -396,25 +488,30 @@ body {
   background: var(--background);
   border: none;
 }
+
 .main-statistics {
   background: var(--background);
   padding-top: 139.98px;
   padding-bottom: 140.02px;
 }
+
 .statistics-list {
   display: flex;
   gap: 18px;
   justify-content: center;
 }
+
 .statistics-item {
   width: 288px;
   height: 195px;
   flex-shrink: 0;
   border-right: var(--rare) solid 1px;
 }
+
 .statistics-item:nth-child(4) {
   border: none;
 }
+
 .statistics-title {
   color: var(--rare);
   text-align: center;
@@ -424,6 +521,7 @@ body {
   line-height: 1.5;
   letter-spacing: 1.7px;
 }
+
 .statistics-text {
   color: var(--text);
   text-align: center;
@@ -432,9 +530,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .main-blogs {
   padding-top: 130px;
 }
+
 .blogs-div {
   display: flex;
   padding-top: 15px;
@@ -443,9 +543,11 @@ body {
   align-items: center;
   gap: 70px;
 }
+
 .blogs-box {
   width: 1220px;
 }
+
 .blog-title {
   color: var(--title);
   text-align: center;
@@ -456,6 +558,7 @@ body {
   letter-spacing: 0.22px;
   margin-bottom: 21px;
 }
+
 .blog-text {
   color: var(--text);
   text-align: center;
@@ -464,17 +567,20 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .blogs-list {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
+
 .blogs-item {
   padding: 21px 21px 40.59px 21px;
   flex-basis: calc((100% - 40px) / 3);
   border-radius: 62px;
   border: 1px solid var(--border-item);
 }
+
 .blogs-text {
   color: var(--main);
   font-size: 15px;
@@ -483,6 +589,7 @@ body {
   letter-spacing: 0.22px;
   padding: 232px 206px 40px 34px;
 }
+
 .blogs-title {
   color: var(--title);
   font-family: "DM Serif Display";
@@ -493,33 +600,40 @@ body {
   margin-top: 15px;
   margin-bottom: 10.41px;
 }
+
 .blog-div {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 149px;
 }
+
 .blogs-kitdes {
   background-image: url(../img/kitchendesign.png);
   background-repeat: no-repeat;
 }
+
 .blogs-livrm {
   background-image: url(../img/livingroom.png);
   background-repeat: no-repeat;
 }
+
 .blogs-minint {
   background-image: url(../img/minimalistinterior.png);
   background-repeat: no-repeat;
   padding: 232px 192px 40px 34px;
 }
+
 .blogs-deskit {
   background-image: url(../img/designkitchen.png);
   background-repeat: no-repeat;
 }
+
 .blogs-rmliv {
   background-image: url(../img/roomliving.png);
   background-repeat: no-repeat;
 }
+
 .blogs-intmin {
   background-image: url(../img/interiorminimalist.png);
   background-repeat: no-repeat;
@@ -533,6 +647,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .blogs-button {
   width: 52px;
   height: 52px;
@@ -541,10 +656,12 @@ body {
   background: var(--background);
   border: none;
 }
+
 .main-consultation {
   padding-top: 100.2px;
   padding-bottom: 79.8px;
 }
+
 .consultation-box {
   border-radius: 70px;
   background: var(--title);
@@ -552,6 +669,7 @@ body {
   padding-bottom: 95px;
   text-align: center;
 }
+
 .consultation-title {
   color: var(--main);
   text-align: center;
@@ -562,6 +680,7 @@ body {
   letter-spacing: 0.22px;
   margin-bottom: 9px;
 }
+
 .consultation-text {
   color: var(--main);
   text-align: center;
@@ -571,6 +690,7 @@ body {
   letter-spacing: 0.22px;
   margin-bottom: 31px;
 }
+
 .consultation-button {
   color: var(--main);
   font-size: 18px;
@@ -582,6 +702,7 @@ body {
   border: none;
   background-color: var(--rare);
 }
+
 .footer {
   display: flex;
   padding-top: 50px;
@@ -589,18 +710,21 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
+
 .gids-box {
   display: flex;
   padding: 0px 0.047px 80px 0px;
   justify-content: center;
   gap: 16px;
 }
+
 .logo-img {
   display: inline-block;
   width: 177px;
   height: 50px;
   margin-bottom: 15px;
 }
+
 .gid-text {
   width: 326px;
   margin-bottom: 9.8px;
@@ -610,6 +734,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .networks-list {
   display: inline-flex;
   margin-right: 75.64px;
@@ -617,14 +742,17 @@ body {
   align-items: center;
   gap: 40px;
 }
+
 .pages-list {
   margin-right: 119px;
 }
+
 .pages-item {
   display: flex;
   flex-direction: column;
   gap: 21.797px;
 }
+
 .pages-title {
   color: var(--title);
   font-family: "DM Serif Display";
@@ -633,12 +761,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .pages-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
 }
+
 .pages-link {
   color: var(--text);
   font-size: 22px;
@@ -646,14 +776,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .explore-list {
   margin-right: 103px;
 }
+
 .explore-item {
   display: flex;
   flex-direction: column;
   gap: 21.797px;
 }
+
 .explore-title {
   color: var(--title);
   font-family: "DM Serif Display";
@@ -662,12 +795,14 @@ body {
   line-height: 37.5px; /* 150% */
   letter-spacing: 0.22px;
 }
+
 .explore-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
 }
+
 .explore-link {
   width: 124px;
   color: var(--text);
@@ -676,14 +811,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .contact-list {
   margin-left: auto;
 }
+
 .contact-item {
   display: flex;
   flex-direction: column;
   gap: 21.797px;
 }
+
 .contact-title {
   color: var(--title);
   font-family: "DM Serif Display";
@@ -692,12 +830,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .contact-address {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 29px;
 }
+
 .contact-link {
   color: var(--text);
   font-family: Jost;
@@ -706,9 +846,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .footer-copyright {
   border-top: var(--border) solid 1px;
 }
+
 .copyright-title {
   color: var(--text);
   text-align: center;
@@ -717,10 +859,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.22px;
 }
+
 .copyright-span {
   color: var(--rare);
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.22px;
-}
+}/*# sourceMappingURL=main.css.map */

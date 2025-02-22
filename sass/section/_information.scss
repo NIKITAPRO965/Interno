@@ -1,0 +1,76 @@
+
+.main-information {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .information-list {
+    display: flex;
+    justify-content: center;
+  }
+  .information-item {
+    width: 400px;
+  }
+  .information-title {
+    color: var(--title);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.56;
+    letter-spacing: 0.22px;
+  }
+  .information-text {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  .information-button {
+    background-color: var(--main);
+    color: var(--text);
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.36px;
+    border: none;
+  }
+  .inf-one {
+    padding: 75px 41px 70px 42px;
+  }
+  .title-one {
+    margin-bottom: 17px;
+  }
+  .text-one {
+    margin-bottom: 48px;
+  }
+  .button-one {
+    padding: 20px 128px 0px 98px;
+  }
+  .inf-two {
+    padding: 75px 40px 103px 40px;
+  }
+  .title-two {
+    margin: 0px 0px 17px 0px;
+  }
+  .text-two {
+    margin: 0px 0px 15px 0px;
+  }
+  .button-two {
+    padding: 20px 128px 0px 98px;
+  }
+  .inf-three {
+    padding: 75px 40px 70px 40px;
+  }
+  .title-three {
+    margin: 0px 0px 17px 0px;
+  }
+  .text-three {
+    margin: 0px 0px 15px 0px;
+  }
+  .button-three {
+    padding: 20px 128px 0px 98px;
+  }

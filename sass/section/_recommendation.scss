@@ -1,0 +1,63 @@
+
+.recommendation-box {
+    display: flex;
+    gap: 16px;
+  }
+  .recommendation-div {
+    width: 592px;
+    height: 581px;
+    flex-shrink: 0;
+  }
+  .recommendation-title {
+    color: var(--title);
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0.22px;
+    margin: 13.2px 142px 42px 0px;
+  }
+  .recommendation-text {
+    color: var(--text);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-right: 60px;
+  }
+  .recommendation-case {
+    display: flex;
+    margin-top: 29.8px;
+    margin-bottom: 11px;
+    gap: 20px;
+    padding: 10.2px 264.69px 39px 0px;
+  }
+  .rec-text {
+    margin-right: 0px;
+  }
+  .rec-box {
+    align-content: center;
+  }
+  .case-img {
+    border-radius: 100px;
+    background-color: var(--background);
+    padding: 29px 29px 30px 30px;
+  }
+  .recommendation-world {
+    color: var(--text);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+  }
+  .recommendation-button {
+    color: var(--main);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.72px;
+    padding: 21px 67px 23px 34px;
+    border-radius: 18px;
+    border: 2px solid var(--title);
+    background: var(--title);
+  }
