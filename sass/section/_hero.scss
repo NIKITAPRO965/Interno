@@ -1,36 +1,46 @@
 
-.main-hero {
+.main {
     padding-top: 195px;
     padding-bottom: 250px;
     background-image: url(../img/backgroundhero.png);
     background-repeat: no-repeat;
     background-size: cover;
+
+    &__title {
+      width: 595px;
+      color: $title;
+      font-family: "DM Serif Display";
+      font-size: 80px;
+      font-weight: 400;
+      line-height: 1.2;
+      letter-spacing: 0.22px;
+    }
+
+    &__text {
+      margin-top: 19px;
+      color: $text;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.22px;
+    }
+
+    &__button {
+      margin-top: 57px;
+      color: $main;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.72px;
+      padding: 22px 67px 22px 34px;
+      background-color: $title;
+      border-radius: 18px;
+
+      &:hover{
+        background-color: $rare;
+      }
+    }
   }
-  .hero-title {
-    width: 595px;
-    color: $title;
-    font-family: "DM Serif Display";
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.22px;
-  }
-  .hero-text {
-    margin-top: 19px;
-    color: $text;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.22px;
-  }
-  .hero-button {
-    margin-top: 57px;
-    color: $main;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.72px;
-    padding: 22px 67px 22px 34px;
-    background-color: $title;
-    border-radius: 18px;
-  }
+  
+  
+  

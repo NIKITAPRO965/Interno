@@ -2,26 +2,38 @@
 .header {
     padding-top: 26px;
     padding-bottom: 18px;
+
+
+
+    &__box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+
+    &__list {
+      display: flex;
+      height: 62px;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 40px;
+    }
+
+
+    &__item {
+      color: $title;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.4px;
+      &:nth-child(1) {
+        color: $rare;
+      }
+    }
+
   }
-  .header-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .nav-list {
-    display: flex;
-    height: 62px;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 40px;
-  }
-  .nav-item {
-    color: $title;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.4px;
-  }
-  .nav-item:nth-child(1) {
-    color: $rare;
-  }
+
+  
+  
+  
