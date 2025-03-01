@@ -16,12 +16,12 @@
     gap: 40px;
   }
   .nav-item {
-    color: var(--title);
+    color: $title;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.4px;
   }
   .nav-item:nth-child(1) {
-    color: var(--rare);
+    color: $rare;
   }

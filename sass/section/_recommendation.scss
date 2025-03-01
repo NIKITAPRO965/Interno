@@ -9,7 +9,7 @@
     flex-shrink: 0;
   }
   .recommendation-title {
-    color: var(--title);
+    color: $title;
     font-family: "DM Serif Display";
     font-size: 50px;
     font-weight: 400;
@@ -18,7 +18,7 @@
     margin: 13.2px 142px 42px 0px;
   }
   .recommendation-text {
-    color: var(--text);
+    color: $text;
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5;
@@ -40,24 +40,24 @@
   }
   .case-img {
     border-radius: 100px;
-    background-color: var(--background);
+    background-color: $background;
     padding: 29px 29px 30px 30px;
   }
   .recommendation-world {
-    color: var(--text);
+    color: $text;
     font-size: 24px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
   }
   .recommendation-button {
-    color: var(--main);
+    color: $main;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.72px;
     padding: 21px 67px 23px 34px;
     border-radius: 18px;
-    border: 2px solid var(--title);
-    background: var(--title);
+    border: 2px solid $title;
+    background: $title;
   }

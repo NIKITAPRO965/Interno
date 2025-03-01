@@ -1,6 +1,6 @@
 
 .main-statistics {
-    background: var(--background);
+    background: $background;
     padding-top: 139.98px;
     padding-bottom: 140.02px;
   }
@@ -13,13 +13,13 @@
     width: 288px;
     height: 195px;
     flex-shrink: 0;
-    border-right: var(--rare) solid 1px;
+    border-right: $rare solid 1px;
   }
   .statistics-item:nth-child(4) {
     border: none;
   }
   .statistics-title {
-    color: var(--rare);
+    color: $rare;
     text-align: center;
     font-family: "DM Serif Display";
     font-size: 85px;
@@ -28,7 +28,7 @@
     letter-spacing: 1.7px;
   }
   .statistics-text {
-    color: var(--text);
+    color: $text;
     text-align: center;
     font-size: 22px;
     font-weight: 400;

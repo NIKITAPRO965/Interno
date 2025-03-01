@@ -5,13 +5,13 @@
   }
   .consultation-box {
     border-radius: 70px;
-    background: var(--title);
+    background: $title;
     padding-top: 100px;
     padding-bottom: 95px;
     text-align: center;
   }
   .consultation-title {
-    color: var(--main);
+    color: $main;
     text-align: center;
     font-family: "DM Serif Display";
     font-size: 50px;
@@ -21,7 +21,7 @@
     margin-bottom: 9px;
   }
   .consultation-text {
-    color: var(--main);
+    color: $main;
     text-align: center;
     font-size: 22px;
     font-weight: 400;
@@ -30,7 +30,7 @@
     margin-bottom: 31px;
   }
   .consultation-button {
-    color: var(--main);
+    color: $main;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
@@ -38,5 +38,5 @@
     padding: 21px 67px 23px 34px;
     border-radius: 18px;
     border: none;
-    background-color: var(--rare);
+    background-color: $rare;
   }

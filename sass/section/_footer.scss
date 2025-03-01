@@ -21,7 +21,7 @@
   .gid-text {
     width: 326px;
     margin-bottom: 9.8px;
-    color: var(--text);
+    color: $text;
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5;
@@ -43,7 +43,7 @@
     gap: 21.797px;
   }
   .pages-title {
-    color: var(--title);
+    color: $title;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-weight: 400;
@@ -57,7 +57,7 @@
     gap: 30px;
   }
   .pages-link {
-    color: var(--text);
+    color: $text;
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5;
@@ -72,11 +72,11 @@
     gap: 21.797px;
   }
   .explore-title {
-    color: var(--title);
+    color: $title;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-weight: 400;
-    line-height: 37.5px; /* 150% */
+    line-height: 37.5px;
     letter-spacing: 0.22px;
   }
   .explore-box {
@@ -87,7 +87,7 @@
   }
   .explore-link {
     width: 124px;
-    color: var(--text);
+    color: $text;
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5;
@@ -102,7 +102,7 @@
     gap: 21.797px;
   }
   .contact-title {
-    color: var(--title);
+    color: $title;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-weight: 400;
@@ -116,7 +116,7 @@
     gap: 29px;
   }
   .contact-link {
-    color: var(--text);
+    color: $text;
     font-family: Jost;
     font-size: 22px;
     font-weight: 400;
@@ -124,10 +124,10 @@
     letter-spacing: 0.22px;
   }
   .footer-copyright {
-    border-top: var(--border) solid 1px;
+    border-top: $border solid 1px;
   }
   .copyright-title {
-    color: var(--text);
+    color: $text;
     text-align: center;
     font-size: 22px;
     font-weight: 400;
@@ -135,7 +135,7 @@
     letter-spacing: 0.22px;
   }
   .copyright-span {
-    color: var(--rare);
+    color: $rare;
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5;

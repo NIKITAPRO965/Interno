@@ -28,16 +28,6 @@ address {
   padding-right: 15px;
 }
 
-:root {
-  --main: #ffffff;
-  --title: #292f36;
-  --text: #4d5053;
-  --rare: #cda274;
-  --background: #f4f0ec;
-  --border-item: #e7e7e7;
-  --border: #e5e5e5;
-}
-
 body {
   font-family: Jost;
 }
@@ -62,7 +52,7 @@ body {
 }
 
 .nav-item {
-  color: var(--title);
+  color: #292f36;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
@@ -70,7 +60,7 @@ body {
 }
 
 .nav-item:nth-child(1) {
-  color: var(--rare);
+  color: #cda274;
 }
 
 .main-hero {
@@ -83,7 +73,7 @@ body {
 
 .hero-title {
   width: 595px;
-  color: var(--title);
+  color: #292f36;
   font-family: "DM Serif Display";
   font-size: 80px;
   font-weight: 400;
@@ -93,7 +83,7 @@ body {
 
 .hero-text {
   margin-top: 19px;
-  color: var(--text);
+  color: #4d5053;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -102,13 +92,13 @@ body {
 
 .hero-button {
   margin-top: 57px;
-  color: var(--main);
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.72px;
   padding: 22px 67px 22px 34px;
-  background-color: var(--title);
+  background-color: #292f36;
   border-radius: 18px;
 }
 
@@ -127,7 +117,7 @@ body {
 }
 
 .information-title {
-  color: var(--title);
+  color: #292f36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 25px;
@@ -137,7 +127,7 @@ body {
 }
 
 .information-text {
-  color: var(--text);
+  color: #4d5053;
   text-align: center;
   font-size: 22px;
   font-weight: 400;
@@ -146,8 +136,8 @@ body {
 }
 
 .information-button {
-  background-color: var(--main);
-  color: var(--text);
+  background-color: #ffffff;
+  color: #4d5053;
   text-align: center;
   font-family: Jost;
   font-size: 18px;
@@ -217,7 +207,7 @@ body {
 }
 
 .recommendation-title {
-  color: var(--title);
+  color: #292f36;
   font-family: "DM Serif Display";
   font-size: 50px;
   font-weight: 400;
@@ -227,7 +217,7 @@ body {
 }
 
 .recommendation-text {
-  color: var(--text);
+  color: #4d5053;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -253,12 +243,12 @@ body {
 
 .case-img {
   border-radius: 100px;
-  background-color: var(--background);
+  background-color: #f4f0ec;
   padding: 29px 29px 30px 30px;
 }
 
 .recommendation-world {
-  color: var(--text);
+  color: #4d5053;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
@@ -266,15 +256,15 @@ body {
 }
 
 .recommendation-button {
-  color: var(--main);
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.72px;
   padding: 21px 67px 23px 34px;
   border-radius: 18px;
-  border: 2px solid var(--title);
-  background: var(--title);
+  border: 2px solid #292f36;
+  background: #292f36;
 }
 
 .main-review {
@@ -288,7 +278,7 @@ body {
   padding-bottom: 120.39px;
   padding-top: 103px;
   border-radius: 70px;
-  background: var(--background);
+  background: #f4f0ec;
 }
 
 .reviews-box {
@@ -309,7 +299,7 @@ body {
 }
 
 .review-title {
-  color: var(--title);
+  color: #292f36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 45px;
@@ -334,11 +324,11 @@ body {
 .reviews-item {
   padding: 49.61px 30px 45px 35px;
   border-radius: 30px;
-  background: var(--main);
+  background: #ffffff;
 }
 
 .reviews-title {
-  color: var(--title);
+  color: #292f36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-weight: 400;
@@ -347,7 +337,7 @@ body {
 }
 
 .reviews-subtitle {
-  color: var(--text);
+  color: #4d5053;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
@@ -355,7 +345,7 @@ body {
 }
 
 .reviews-text {
-  color: var(--text);
+  color: #4d5053;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
@@ -393,7 +383,7 @@ body {
 
 .project-title {
   margin-bottom: 20px;
-  color: var(--title);
+  color: #292f36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 47px;
@@ -408,7 +398,7 @@ body {
 }
 
 .project-text {
-  color: var(--text);
+  color: #4d5053;
   text-align: center;
   font-size: 22px;
   font-weight: 400;
@@ -464,7 +454,7 @@ body {
 }
 
 .projects-title {
-  color: var(--title);
+  color: #292f36;
   font-family: "DM Serif Display";
   font-size: 24px;
   font-weight: 400;
@@ -473,7 +463,7 @@ body {
 }
 
 .projects-text {
-  color: var(--text);
+  color: #4d5053;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -485,12 +475,12 @@ body {
   height: 70px;
   flex-shrink: 0;
   border-radius: 100px;
-  background: var(--background);
+  background: #f4f0ec;
   border: none;
 }
 
 .main-statistics {
-  background: var(--background);
+  background: #f4f0ec;
   padding-top: 139.98px;
   padding-bottom: 140.02px;
 }
@@ -505,7 +495,7 @@ body {
   width: 288px;
   height: 195px;
   flex-shrink: 0;
-  border-right: var(--rare) solid 1px;
+  border-right: #cda274 solid 1px;
 }
 
 .statistics-item:nth-child(4) {
@@ -513,7 +503,7 @@ body {
 }
 
 .statistics-title {
-  color: var(--rare);
+  color: #cda274;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 85px;
@@ -523,7 +513,7 @@ body {
 }
 
 .statistics-text {
-  color: var(--text);
+  color: #4d5053;
   text-align: center;
   font-size: 22px;
   font-weight: 400;
@@ -549,7 +539,7 @@ body {
 }
 
 .blog-title {
-  color: var(--title);
+  color: #292f36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 48px;
@@ -560,7 +550,7 @@ body {
 }
 
 .blog-text {
-  color: var(--text);
+  color: #4d5053;
   text-align: center;
   font-size: 22px;
   font-weight: 400;
@@ -578,11 +568,11 @@ body {
   padding: 21px 21px 40.59px 21px;
   flex-basis: calc((100% - 40px) / 3);
   border-radius: 62px;
-  border: 1px solid var(--border-item);
+  border: 1px solid #e7e7e7;
 }
 
 .blogs-text {
-  color: var(--main);
+  color: #ffffff;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
@@ -591,7 +581,7 @@ body {
 }
 
 .blogs-title {
-  color: var(--title);
+  color: #292f36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-weight: 400;
@@ -641,7 +631,7 @@ body {
 }
 
 .blogs-world {
-  color: var(--text);
+  color: #4d5053;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -653,7 +643,7 @@ body {
   height: 52px;
   flex-shrink: 0;
   border-radius: 100px;
-  background: var(--background);
+  background: #f4f0ec;
   border: none;
 }
 
@@ -664,14 +654,14 @@ body {
 
 .consultation-box {
   border-radius: 70px;
-  background: var(--title);
+  background: #292f36;
   padding-top: 100px;
   padding-bottom: 95px;
   text-align: center;
 }
 
 .consultation-title {
-  color: var(--main);
+  color: #ffffff;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 50px;
@@ -682,7 +672,7 @@ body {
 }
 
 .consultation-text {
-  color: var(--main);
+  color: #ffffff;
   text-align: center;
   font-size: 22px;
   font-weight: 400;
@@ -692,7 +682,7 @@ body {
 }
 
 .consultation-button {
-  color: var(--main);
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
@@ -700,7 +690,7 @@ body {
   padding: 21px 67px 23px 34px;
   border-radius: 18px;
   border: none;
-  background-color: var(--rare);
+  background-color: #cda274;
 }
 
 .footer {
@@ -728,7 +718,7 @@ body {
 .gid-text {
   width: 326px;
   margin-bottom: 9.8px;
-  color: var(--text);
+  color: #4d5053;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -754,7 +744,7 @@ body {
 }
 
 .pages-title {
-  color: var(--title);
+  color: #292f36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-weight: 400;
@@ -770,7 +760,7 @@ body {
 }
 
 .pages-link {
-  color: var(--text);
+  color: #4d5053;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -788,11 +778,11 @@ body {
 }
 
 .explore-title {
-  color: var(--title);
+  color: #292f36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-weight: 400;
-  line-height: 37.5px; /* 150% */
+  line-height: 37.5px;
   letter-spacing: 0.22px;
 }
 
@@ -805,7 +795,7 @@ body {
 
 .explore-link {
   width: 124px;
-  color: var(--text);
+  color: #4d5053;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -823,7 +813,7 @@ body {
 }
 
 .contact-title {
-  color: var(--title);
+  color: #292f36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-weight: 400;
@@ -839,7 +829,7 @@ body {
 }
 
 .contact-link {
-  color: var(--text);
+  color: #4d5053;
   font-family: Jost;
   font-size: 22px;
   font-weight: 400;
@@ -848,11 +838,11 @@ body {
 }
 
 .footer-copyright {
-  border-top: var(--border) solid 1px;
+  border-top: #e5e5e5 solid 1px;
 }
 
 .copyright-title {
-  color: var(--text);
+  color: #4d5053;
   text-align: center;
   font-size: 22px;
   font-weight: 400;
@@ -861,7 +851,7 @@ body {
 }
 
 .copyright-span {
-  color: var(--rare);
+  color: #cda274;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
