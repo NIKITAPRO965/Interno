@@ -364,8 +364,11 @@ body {
 
 .brands-list {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 0px;
 }
 
 .main-projects {
@@ -522,11 +525,12 @@ body {
 }
 
 .blogs-div {
-  display: flex;
   padding-top: 15px;
-  flex-direction: column;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
   gap: 70px;
 }
 
@@ -556,8 +560,11 @@ body {
 
 .blogs-list {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .blogs-item {
@@ -588,9 +595,11 @@ body {
 }
 
 .blog-div {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 149px;
 }
 
@@ -690,17 +699,22 @@ body {
 }
 
 .footer {
-  display: flex;
   padding-top: 50px;
-  flex-direction: column;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0px;
 }
 
 .gids-box {
-  display: flex;
   padding: 0px 0.047px 80px 0px;
+  display: flex;
   justify-content: center;
+  align-items: start;
+  flex-wrap: no-wrap;
+  flex-direction: row;
   gap: 16px;
 }
 
@@ -722,10 +736,13 @@ body {
 }
 
 .networks-list {
-  display: inline-flex;
   margin-right: 75.64px;
   padding: 19.203px 152.359px 14.797px 0px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: row;
   gap: 40px;
 }
 
@@ -735,8 +752,11 @@ body {
 
 .pages-item {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
   flex-direction: column;
-  gap: 21.797px;
+  gap: 22px;
 }
 
 .pages-title {

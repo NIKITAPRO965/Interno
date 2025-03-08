@@ -3,7 +3,8 @@
     padding-bottom: 100px;
   }
   .brands-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    @include flex-box($justify:space-between);
   }

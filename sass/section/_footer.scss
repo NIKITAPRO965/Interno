@@ -1,16 +1,18 @@
 
 .footer {
-    display: flex;
-    padding-top: 50px;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+  padding-top: 50px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-end;
+    // align-items: center;
+    @include flex-box($direction:column, $justify:flex-end);
   }
   .gids-box {
-    display: flex;
     padding: 0px 0.047px 80px 0px;
-    justify-content: center;
-    gap: 16px;
+    // display: flex;
+    // justify-content: center;
+    // gap: 16px;
+    @include flex-box($gap:16px, $wrap:no-wrap, $aling:start);
   }
   .logo-img {
     display: inline-block;
@@ -28,19 +30,21 @@
     letter-spacing: 0.22px;
   }
   .networks-list {
-    display: inline-flex;
     margin-right: 75.64px;
     padding: 19.203px 152.359px 14.797px 0px;
-    align-items: center;
-    gap: 40px;
+    // display: flex;
+    // align-items: center;
+    // gap: 40px;
+    @include flex-box($gap:40px, $wrap:no-wrap);
   }
   .pages-list {
     margin-right: 119px;
   }
   .pages-item {
-    display: flex;
-    flex-direction: column;
-    gap: 21.797px;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 21.797px;
+    @include flex-box($direction:column, $gap:22px, $justify:flex-start);
   }
   .pages-title {
     color: $title;
